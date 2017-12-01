@@ -5,3 +5,12 @@ function theBeatlesPlay(m, i) {
     }
     return a
 }
+
+function johnLennonFacts(f) {
+    var i = 0
+    while (f[i]) {
+        f[i] = `${f[i]}!!!`
+        i++
+    }
+    return f
+}
