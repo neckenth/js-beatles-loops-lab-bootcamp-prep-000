@@ -1,7 +1,7 @@
-function thBeatlesPlay(m, i) {
+function theBeatlesPlay(m, i) {
     var a = []
     for (var n = 0; n < m.length; n++) {
-        a = a.push(`"${m[n]} plays ${i[n]}"`)
+        a.push(`"${m[n]} plays ${i[n]}"`)
     }
     return a
 }
